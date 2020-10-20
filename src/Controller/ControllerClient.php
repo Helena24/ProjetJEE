@@ -4,6 +4,7 @@
 namespace App\Controller;
 
 use App\Entity\Clients;
+use App\Entity\Dossiers;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -21,6 +22,18 @@ class ControllerClient extends AbstractController
         $clients = $en->getRepository(Clients::class)->findAll();
 
         return $this->render('toto.html.twig',['clients'=>$clients]);
+    }
+
+    /**
+     * @return Response
+     * @Route (path="/info", name="info")
+     */
+    public function informations()
+    {
+        $en = $this->getDoctrine()->getManager();
+        $dossiers = $en->getRepository(Dossiers::class)->findAll();
+
+        return $this->render('info.html.twig',['dossiers'=>$dossiers]);
     }
 
 }

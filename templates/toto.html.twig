@@ -24,16 +24,18 @@
                         <strong>{{ client.prenomClient }} {{ client.nomClient }}</strong>
                         <br>
                         {% if client.emailClient %}
-                        <span class="tag is-link is-light">Mail</span><small>{{client.emailClient}}</small><br>
+                            <div class="tags has-addons">
+                                <span class="tag is-success is-light">{{client.emailClient}}</span>
+                            </div>
                         {% endif %}
                         {% if client.telephoneClient %}
-                        <span class="tag is-link is-light">Telephone</span><small>{{client.telephoneClient}}</small>
+                            <div class="tags has-addons">
+                                <span class="tag is-success is-light">{{client.telephoneClient}}</span>
+                            </div>
                         {% endif %}
                     </p>
                 </div>
-            </div>
-            <div class="media-right">
-                <button class="delete is-small"></button>
+                <button class="button is-small" onclick="window.location.href = '{{ path('info') }}';">Voir les voyages</button>
             </div>
         </article>
     </div>
