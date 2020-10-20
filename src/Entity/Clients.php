@@ -9,7 +9,7 @@ class Clients
     private $idClient;
     private $nomClient;
     private $prenomClient;
-    private $emailClient;
+    private $emailClientVianney;
     private $telephoneClient;
 
     /**
