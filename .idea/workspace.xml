@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1iSYWLKDvIJtN7y5eLrRrimjcah" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Entity" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="" />
+      <created>1601902490685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601902490685</updated>
+      <workItem from="1601902491807" duration="996000" />
+      <workItem from="1602172859937" duration="252000" />
+      <workItem from="1603113340723" duration="6370000" />
+      <workItem from="1603180732017" duration="4313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603113417985">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1603113417985" />
+    <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1601904368193">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1601904368193" />
+    <state width="958" height="164" key="GridCell.Tab.0.bottom" timestamp="1603185656067">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="164" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603185656067" />
+    <state width="958" height="164" key="GridCell.Tab.0.center" timestamp="1603185656066">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="164" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603185656066" />
+    <state width="958" height="164" key="GridCell.Tab.0.left" timestamp="1603185656066">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="164" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603185656066" />
+    <state width="958" height="164" key="GridCell.Tab.0.right" timestamp="1603185656067">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="958" height="164" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603185656067" />
+    <state x="390" y="183" key="NewPhpClassDialog" timestamp="1602172897813">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="390" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1602172897813" />
+    <state x="627" y="351" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1603117247845">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="627" y="351" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1440.900@0.0.1440.900" timestamp="1603117247845" />
+    <state x="598" y="344" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603118373538">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="598" y="344" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.900@0.0.1440.900" timestamp="1603118373538" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603184434532">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603184434532" />
+  </component>
+</project>

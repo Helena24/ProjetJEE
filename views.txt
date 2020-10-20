@@ -1,0 +1,39 @@
+Create view Clients(id_voyageur,nom,prenom,telephone,mail) as
+    select  id_voyageur,nom, prenom,
+    (select valeur as telephone from Contact where methode='telephone' and Voyageur.id_voyageur = Contact.id_voyageur),
+    (select valeur as email from Contact where methode='mail' and Voyageur.id_voyageur = Contact.id_voyageur)
+    from Contact join Voyageur using(id_voyageur) group by id_voyageur;
+	
+	
+	
+	Create view Dossiers(referenceClient, referenceVoyage, voyageEffectue) as
+	    select Dossier.id_voyageur, Dossier.id_voyage,
+	    (CASE
+	        WHEN NonPartantAvion.id_voyageur = Dossier.id_voyageur AND Dossier.methode = 'avion' then 'non'
+	        WHEN NonPresentTrain.id_dossier = Dossier.id_dossier AND Dossier.methode='train' then 'non'
+	        ELSE 'oui'
+	        END) AS 'voyageEffectue'
+	        from NonPartantAvion,Dossier,NonPresentTrain;
+			
+			
+			Create view ListeTransport(date_voyage, type_transport, numero_transport, ville_depart, ville_arrivee, id_voyage) as
+			    select
+			        Dossier.date,
+			        (CASE
+			            WHEN  Dossier.id_voyage < 100 then 'avion'
+			            WHEN Dossier.id_voyage < 200 then 'train'
+			            WHEN Dossier.id_voyage < 300 then 'bus'
+			            ELSE 'null'
+			        END) as type_transport,
+			        (CASE
+			            WHEN  Dossier.id_voyage < 100 then (select VoyageEnAvion.code_avion from VoyageEnAvion WHERE VoyageEnAvion.id_avion = Dossier.id_voyage)
+			            WHEN Dossier.id_voyage < 200 then (select VoyageEnTrain.code_train from VoyageEnTrain WHERE VoyageEnTrain.id_train = Dossier.id_voyage)
+			            WHEN Dossier.id_voyage < 300 then (select VoyageEnBus.code_bus from VoyageEnBus WHERE VoyageEnBus.id_bus = Dossier.id_voyage)
+			            ELSE 'null'
+			        END) as numero_transport,
+			        /*ville départ*/
+			        Dossier.depart,
+			        /*ville arrivee*/
+			        Dossier.arrivee,
+			        Dossier.id_voyage
+			    FROM Dossier;
