@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <title>{% block title %}Welcome{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+</head>
+<h1 class="title">Clients</h1>
+<body>
+{% block body %}{% endblock %}
+{% for client in clients %}
+<div class="content" style="padding-left: 10%; padding-right: 50%;">
+    <div class="box">
+        <article class="media">
+            <div class="media-left">
+                <figure class="image is-64x64">
+                    <img src="https://lh3.googleusercontent.com/proxy/HSo-H_S_XxGp4xrdhdg_zGVoe7oZG2vczhtUlQ5ztBPCw1M2Ejg_LeHE08595iRdjPiEY4HReIn6fKfflcR12PD5bFZyE1Xm5wFljaLg4JkYhC94VTKa4x3LzUNC" alt="Image">
+                </figure>
+            </div>
+            <div class="media-content">
+                <div class="content">
+                    <p>
+                        <strong>{{ client.prenomClient }} {{ client.nomClient }}</strong>
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="media-right">
+                <button class="delete is-small"></button>
+            </div>
+        </article>
+    </div>
+</div>
+{% endfor %}
+{% block javascripts %}{% endblock %}
+</body>
+
+
+</html>
