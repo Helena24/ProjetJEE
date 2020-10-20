@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="" />
+    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7a894fc-6374-40ea-90a9-6203f08018d1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7a894fc-6374-40ea-90a9-6203f08018d1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7a894fc-6374-40ea-90a9-6203f08018d1/storage_v2/_src_/schema/main.uQUzAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7a894fc-6374-40ea-90a9-6203f08018d1/storage_v2/_src_/schema/main.uQUzAA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,9 @@
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -62,7 +71,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/bdd.sqlite" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -83,6 +92,7 @@
       <workItem from="1602172859937" duration="252000" />
       <workItem from="1603113340723" duration="6370000" />
       <workItem from="1603180732017" duration="4313000" />
+      <workItem from="1603186535428" duration="516000" />
     </task>
     <servers />
   </component>
@@ -90,14 +100,19 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603113417985">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="304" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603187055168">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="304" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603187055168" />
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1603113417985" />
     <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1601904368193">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1601904368193" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1603187047335">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603187047335" />
     <state width="958" height="164" key="GridCell.Tab.0.bottom" timestamp="1603185656067">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -126,6 +141,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="598" y="344" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.900@0.0.1440.900" timestamp="1603118373538" />
+    <state x="263" y="19" key="com.intellij.database.dbimport.ImportDialog" timestamp="1603186722904">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="19" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1603186722904" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603186994747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603186994747" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603184434532">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
