@@ -35,7 +35,7 @@
                         {% endif %}
                     </p>
                 </div>
-                <button class="button is-small" onclick="window.location.href = '{{ path('info') }}';">Voir les voyages</button>
+                <button class="button is-small" onclick="window.location.href = '{{ path('info', {'id' : client.getIdClient()}) }}';">Voir les voyages</button>
             </div>
         </article>
     </div>

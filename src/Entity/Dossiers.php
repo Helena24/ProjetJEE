@@ -12,15 +12,17 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Dossiers
 {
+
     /**
-     * @ORM\Id()
-     * @ORM\Column(name="referenceClient", type="integer")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Clients", fetch="EAGER")
+     * @ORM\JoinColumn(name="referenceClient", referencedColumnName="id_voyageur")
      */
     private $referenceClient;
 
     /**
      * @ORM\Id()
-     * @ORM\Column(name="referenceVoyage", type="integer")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Voyages", fetch="EAGER")
+     * @ORM\JoinColumn(name="referenceVoyage", referencedColumnName="id_voyage")
      */
     private $referenceVoyage;
 

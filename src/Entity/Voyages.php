@@ -2,15 +2,46 @@
 
 
 namespace App\Entity;
+use ApiPlatform\Core\Annotation\ApiResource;
+use Doctrine\ORM\Mapping as ORM;
 
-
+/**
+ * Class Voyages
+ * @ORM\Entity()
+ * @ORM\Table(name="Voyages")
+ */
 class Voyages
 {
+    /**
+     * @ORM\Column(name="date_voyage", type="text")
+     */
     private $date_voyage;
+
+    /**
+     * @ORM\Column(name="type_transport", type="text")
+     */
     private $type_transport;
+
+    /**
+     * @ORM\Column(name="numero_transport", type="text")
+     */
     private $numero_transport;
+
+    /**
+     * @ORM\Column(name="ville_depart", type="text")
+     */
     private $ville_depart;
+
+    /**
+     * @ORM\Column(name="ville_arrivee", type="text")
+     */
     private $ville_arrive;
+
+    /**
+     * @ORM\Id()
+     * @ORM\Column(name="id_voyage", type="integer")
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
     private $id_voyage;
 
     /**

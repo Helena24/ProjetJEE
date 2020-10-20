@@ -26,13 +26,12 @@ class ControllerClient extends AbstractController
 
     /**
      * @return Response
-     * @Route (path="/info", name="info")
+     * @Route (path="/info/{id}", name="info")
      */
-    public function informations()
+    public function informations(Clients $client = null)
     {
         $en = $this->getDoctrine()->getManager();
-        $dossiers = $en->getRepository(Dossiers::class)->findAll();
-
+        $dossiers = $en->getRepository(Dossiers::class)->findBy(['referenceClient'=>$client->getIdClient()]);
         return $this->render('info.html.twig',['dossiers'=>$dossiers]);
     }
 
