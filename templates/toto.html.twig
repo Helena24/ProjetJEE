@@ -23,6 +23,12 @@
                     <p>
                         <strong>{{ client.prenomClient }} {{ client.nomClient }}</strong>
                         <br>
+                        {% if client.emailClient %}
+                        <span class="tag is-link is-light">Mail</span><small>{{client.emailClient}}</small><br>
+                        {% endif %}
+                        {% if client.telephoneClient %}
+                        <span class="tag is-link is-light">Telephone</span><small>{{client.telephoneClient}}</small>
+                        {% endif %}
                     </p>
                 </div>
             </div>
