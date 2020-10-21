@@ -15,41 +15,60 @@ class Voyages
     /**
      * @ORM\Column(name="date_voyage", type="text")
      */
-    private $date_voyage;
+    private $dateVoyage;
 
     /**
      * @ORM\Column(name="type_transport", type="text")
      */
-    private $type_transport;
+    private $typeTransport;
 
     /**
      * @ORM\Column(name="numero_transport", type="text")
      */
-    private $numero_transport;
+    private $numeroTransport;
 
     /**
      * @ORM\Column(name="ville_depart", type="text")
      */
-    private $ville_depart;
+    private $villeDepart;
 
     /**
      * @ORM\Column(name="ville_arrivee", type="text")
      */
-    private $ville_arrive;
+    private $villeArrivee;
+
+    /**
+     * @ORM\Column(name="id_voyage", type="integer")
+     */
+    private $idVoyage;
 
     /**
      * @ORM\Id()
-     * @ORM\Column(name="id_voyage", type="integer")
+     * @ORM\Column(name="id_voyage_view", type="integer")
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id_voyage;
+
+    private $idVoyageView;
+    /**
+     * @return mixed
+     */
+    public function getIdVoyageView()
+    {
+        return $this->idVoyageView;
+    }/**
+     * @param mixed $idVoyageView
+     */
+    public function setIdVoyageView($idVoyageView): void
+    {
+        $this->idVoyageView = $idVoyageView;
+    }
 
     /**
      * @return mixed
      */
     public function getIdVoyage()
     {
-        return $this->id_voyage;
+        return $this->idVoyage;
     }
 
     /**
@@ -57,15 +76,15 @@ class Voyages
      */
     public function getDateVoyage()
     {
-        return $this->date_voyage;
+        return $this->dateVoyage;
     }
 
     /**
-     * @param mixed $date_voyage
+     * @param mixed $dateVoyage
      */
-    public function setDateVoyage($date_voyage): void
+    public function setDateVoyage($dateVoyage): void
     {
-        $this->date_voyage = $date_voyage;
+        $this->dateVoyage = $dateVoyage;
     }
 
     /**
@@ -73,15 +92,15 @@ class Voyages
      */
     public function getTypeTransport()
     {
-        return $this->type_transport;
+        return $this->typeTransport;
     }
 
     /**
-     * @param mixed $type_transport
+     * @param mixed $typeTransport
      */
-    public function setTypeTransport($type_transport): void
+    public function setTypeTransport($typeTransport): void
     {
-        $this->type_transport = $type_transport;
+        $this->typeTransport = $typeTransport;
     }
 
     /**
@@ -89,15 +108,15 @@ class Voyages
      */
     public function getNumeroTransport()
     {
-        return $this->numero_transport;
+        return $this->numeroTransport;
     }
 
     /**
-     * @param mixed $numero_transport
+     * @param mixed $numeroTransport
      */
-    public function setNumeroTransport($numero_transport): void
+    public function setNumeroTransport($numeroTransport): void
     {
-        $this->numero_transport = $numero_transport;
+        $this->numeroTransport = $numeroTransport;
     }
 
     /**
@@ -105,15 +124,15 @@ class Voyages
      */
     public function getVilleDepart()
     {
-        return $this->ville_depart;
+        return $this->villeDepart;
     }
 
     /**
-     * @param mixed $ville_depart
+     * @param mixed $villeDepart
      */
-    public function setVilleDepart($ville_depart): void
+    public function setVilleDepart($villeDepart): void
     {
-        $this->ville_depart = $ville_depart;
+        $this->villeDepart = $villeDepart;
     }
 
     /**
@@ -121,14 +140,14 @@ class Voyages
      */
     public function getVilleArrive()
     {
-        return $this->ville_arrive;
+        return $this->villeArrivee;
     }
 
     /**
-     * @param mixed $ville_arrive
+     * @param mixed $villeArrivee
      */
-    public function setVilleArrive($ville_arrive): void
+    public function setVilleArrive($villeArrivee): void
     {
-        $this->ville_arrive = $ville_arrive;
+        $this->villeArrivee = $villeArrivee;
     }
 }
