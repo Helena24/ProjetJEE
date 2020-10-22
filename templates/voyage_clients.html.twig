@@ -12,33 +12,26 @@
     <div class="table-container">
         <table class="table is-hoverable">
             <thead>
-            <th>Client</th>
-            <th>Voyage</th>
+            <th>Nom</th>
+            <th>Prénom</th>
             <th>L'a-t-il effectué ?</th>
             </thead>
             <tbody>
-            {% for voy in date %}
-                {{ voy.dateVoyage }}
-            {% endfor %}
-            STOP
+
             {% for doss in dossVoyage %}
-                {{ doss.getReferenceVoyage().getDateVoyage() }}
-                {{ doss.getReferenceVoyage().getVilleDepart() }}
-                {{ doss.getReferenceVoyage().getVilleArrive() }}
-                {{ doss.getReferenceVoyage().getIdView() }}
-                <tr>
-                    <td>
-                    </td>
-                    <td>
-                        <strong>Date</strong><br>
-                        <strong>Type</strong> <br>
-                        <strong>Numéro</strong> <br>
-                        <strong>Départ</strong> <br>
-                        <strong>Arrivée</strong>
-                    </td>
-                    <td>
-                    </td>
-                </tr>
+                {% if doss.getReferenceVoyage().getIdView() == id_voyage %}
+                    <tr>
+                        <td>
+                            {{ doss.getReferenceClient().getNomClient() }}
+                        </td>
+                        <td>
+                            {{ doss.getReferenceClient().getPrenomClient() }}
+                        </td>
+                        <td>
+                            {{ doss.voyageEffectue }}
+                        </td>
+                    </tr>
+                {% endif %}
             {% endfor %}
             </tbody>
         </table>

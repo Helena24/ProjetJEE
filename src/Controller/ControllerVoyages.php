@@ -31,9 +31,11 @@ class ControllerVoyages extends AbstractController
     public function informations_voyages(Voyages $voyage = null)
     {
         $en = $this->getDoctrine()->getManager();
-        $voy = $en->getRepository(Voyages::class)->findBy(['dateVoyage'=>$voyage->getDateVoyage()]);
-        $doss = $en->getRepository(Dossiers::class)->findBy(['referenceVoyage'=>1]);
-        return $this->render('voyage_clients.html.twig',['dossVoyage'=>$doss,'date'=>$voy]);
+        //$voy = $en->getRepository(Voyages::class)->findBy(['dateVoyage'=>$voyage->getDateVoyage()]);
+        $doss = $en->getRepository(Dossiers::class)->findAll();//->findBy(['referenceVoyage'=>1]);
+
+
+        return $this->render('voyage_clients.html.twig',['dossVoyage'=>$doss, 'id_voyage'=>$voyage->getIdView()]);//,'date'=>$voy]);
     }
 
 

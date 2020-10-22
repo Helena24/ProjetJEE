@@ -21,7 +21,7 @@ class Dossiers
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Voyages", fetch="EAGER")
-     * @ORM\JoinColumn(name="referenceVoyage", referencedColumnName="id_voyage")
+     * @ORM\JoinColumn(name="referenceVoyage", referencedColumnName="id_voyage_view")
      */
     private $referenceVoyage;
 
