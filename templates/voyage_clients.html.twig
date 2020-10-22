@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <title>{% block title %}Welcome{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+</head>
+<body>
+{% block body %}{% endblock %}
+<div class="content" style="padding-left: 10%; padding-right: 50%;">
+    <div class="table-container">
+        <table class="table is-hoverable">
+            <thead>
+            <th>Client</th>
+            <th>Voyage</th>
+            <th>L'a-t-il effectué ?</th>
+            </thead>
+            <tbody>
+            {% for dossier in dossiers %}
+                <tr>
+                    <td>
+                        {{dossier.getReferenceClient().getNomClient()}}
+                        {{dossier.getReferenceClient().getPrenomClient()}}
+                    </td>
+                    <td>
+                        <strong>Date</strong> {{dossier.getReferenceVoyage().getDateVoyage()}}<br>
+                        <strong>Type</strong> {{dossier.getReferenceVoyage().getTypeTransport()}}<br>
+                        <strong>Numéro</strong> {{dossier.getReferenceVoyage().getNumeroTransport()}}<br>
+                        <strong>Départ</strong> {{dossier.getReferenceVoyage().getVilleDepart()}}<br>
+                        <strong>Arrivée</strong> {{dossier.getReferenceVoyage().getVilleArrive()}}
+                    </td>
+                    <td>
+                        {{ dossier.voyageEffectue }}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% block javascripts %}{% endblock %}
+</body>
+</html>

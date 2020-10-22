@@ -37,6 +37,7 @@ class Voyages
      */
     private $villeArrivee;
 
+
     /**
      * @ORM\Column(name="id_voyage", type="integer")
      */
@@ -47,21 +48,16 @@ class Voyages
      * @ORM\Column(name="id_voyage_view", type="integer")
      * @ORM\GeneratedValue(strategy="AUTO")
      */
+    private $idView;
 
-    private $idVoyageView;
     /**
      * @return mixed
      */
-    public function getIdVoyageView()
+    public function getIdView()
     {
-        return $this->idVoyageView;
-    }/**
-     * @param mixed $idVoyageView
-     */
-    public function setIdVoyageView($idVoyageView): void
-    {
-        $this->idVoyageView = $idVoyageView;
+        return $this->idView;
     }
+
 
     /**
      * @return mixed

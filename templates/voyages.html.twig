@@ -16,7 +16,7 @@
             <div class="media-left">
                 <figure class="image is-64x64">
                     {% if voyage.typetransport == 'train' %}
-                        <img src="https://www.flaticon.com/svg/static/icons/svg/3419/3419833.svg" alt="Image">
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/3419/3419833.svg"
                     {% endif %}
                     {% if voyage.typetransport == 'bus' %}
                         <img src="https://www.flaticon.com/svg/static/icons/svg/741/741411.svg" alt="Image">
@@ -24,23 +24,18 @@
                     {% if voyage.typetransport == 'avion' %}
                         <img src="https://www.flaticon.com/svg/static/icons/svg/2979/2979504.svg" alt="Image">
                     {% endif %}
-
-
-
-
-
                 </figure>
             </div>
             <div class="media-content">
                 <div class="content">
                     <p>
-                        <strong>
-                            {{ voyage.numerotransport }}
-                            {{ voyage.datevoyage }}
-                            {{ voyage.villedepart }}
-                            {{ voyage.villearrive }}
-                        </strong>
+                        <strong>{{ voyage.numerotransport }}</strong>
+                        <div class="tags has-addons">
+                            <span class="tag is-light">{{voyage.villedepart }}-{{ voyage.villearrive}}</span>
 
+                            <span class="tag is-white">{{voyage.datevoyage|localizeddate('none', 'none', 'fr', null, 'EEEE d MMMM Y')}}</span>
+                            <button class="button is-small button is-primary" onclick="window.location.href = '{{ path('voyage_clients', {'id' : voyage.getIdView()}) }}';">Voir les passagers</button>
+                    </div>
                     </p>
                 </div>
             </div>
