@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="recherche clients covid">
-      <change afterPath="$PROJECT_DIR$/src/Entity/Contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Voyageurs.php" afterDir="false" />
+    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="ajout classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Voyageurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Voyageurs.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,7 @@
       <workItem from="1603286969414" duration="6617000" />
       <workItem from="1603299687578" duration="142000" />
       <workItem from="1603351297275" duration="7893000" />
-      <workItem from="1603367660217" duration="7132000" />
+      <workItem from="1603367660217" duration="7283000" />
     </task>
     <task id="LOCAL-00001" summary="clients">
       <created>1603187363075</created>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603373942543</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ajout classes">
+      <created>1603376642637</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603376642638</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +253,8 @@
     <MESSAGE value="changmeent" />
     <MESSAGE value="ça marche" />
     <MESSAGE value="recherche clients covid" />
-    <option name="LAST_COMMIT_MESSAGE" value="recherche clients covid" />
+    <MESSAGE value="ajout classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603196703542">
@@ -257,10 +265,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="436" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1603196626889" />
-    <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1603296743553">
+    <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1603376785882">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603296743553" />
+    <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603376785882" />
     <state x="421" y="96" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603194419801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -289,10 +297,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="390" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1603376626371" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603373948439">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603376647570">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603373948439" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603376647570" />
     <state x="627" y="351" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1603296549193">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
