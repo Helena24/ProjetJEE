@@ -4,8 +4,11 @@
 namespace App\Controller;
 
 use App\Entity\Clients;
+use App\Entity\Contact;
 use App\Entity\Dossiers;
+use App\Entity\Voyageurs;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -35,4 +38,52 @@ class ControllerClient extends AbstractController
         return $this->render('info.html.twig',['dossiers'=>$dossiers]);
     }
 
+    /**
+     * @return Response
+     * @Route (path="/ajoutVoyageur", name="ajoutVoyageur")
+     */
+    public function ajoutVoyageur()
+    {
+        return $this->render('ajoutVoyageur.html.twig', ['ajout'=>false]);
+    }
+
+
+    /**
+     * @return Response
+     * @Route (path="/ajoutVoyageurOk", name="ajoutVoyageurOk")
+     */
+    public function ajoutDonneesVoyageur(Request $request)
+    {
+        $en = $this->getDoctrine()->getManager();
+
+        $nomVoyageur=$request->get('nomVoyageur');
+        $prenomVoyageur=$request->get('prenomVoyageur');
+        $telephoneVoyageur=$request->get('telephoneVoyageur');
+        $emailVoyageur=$request->get('emailVoyageur');
+
+        $voyageur = new Voyageurs();
+        $voyageur->setPrenom($prenomVoyageur);
+        $voyageur->setNom($nomVoyageur);
+
+        $en->persist($voyageur);
+        $en->flush();
+
+        $contact = new Contact();
+        $contact->setMethode('telephone');
+        $contact->setValeur($telephoneVoyageur);
+        $contact->setIdVoyageur($voyageur->getIdVoyageur());
+
+        $en->persist($contact);
+        $en->flush();
+
+        $contact = new Contact();
+        $contact->setMethode('mail');
+        $contact->setValeur($emailVoyageur);
+        $contact->setIdVoyageur($voyageur->getIdVoyageur());
+
+        $en->persist($contact);
+        $en->flush();
+
+        return $this->render('ajoutVoyageurOk.html.twig', ['ajout'=>true]);
+    }
 }
