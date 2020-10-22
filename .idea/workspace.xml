@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="ça marche">
-      <change afterPath="$PROJECT_DIR$/templates/covid.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/covidResult.html.twig" afterDir="false" />
+    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="recherche clients covid">
+      <change afterPath="$PROJECT_DIR$/src/Entity/Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Voyageurs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerVoyages.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerVoyages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/voyages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/voyages.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +145,7 @@
       <workItem from="1603286969414" duration="6617000" />
       <workItem from="1603299687578" duration="142000" />
       <workItem from="1603351297275" duration="7893000" />
-      <workItem from="1603367660217" duration="6178000" />
+      <workItem from="1603367660217" duration="7132000" />
     </task>
     <task id="LOCAL-00001" summary="clients">
       <created>1603187363075</created>
@@ -212,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603369771107</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="recherche clients covid">
+      <created>1603373942543</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603373942543</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +245,8 @@
     <MESSAGE value="ajout de l'id" />
     <MESSAGE value="changmeent" />
     <MESSAGE value="ça marche" />
-    <option name="LAST_COMMIT_MESSAGE" value="ça marche" />
+    <MESSAGE value="recherche clients covid" />
+    <option name="LAST_COMMIT_MESSAGE" value="recherche clients covid" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603196703542">
@@ -279,14 +285,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="164" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603358683710" />
-    <state x="390" y="183" key="NewPhpClassDialog" timestamp="1603194369715">
+    <state x="390" y="183" key="NewPhpClassDialog" timestamp="1603376626371">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="390" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1603194369715" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603369779371">
+    <state x="390" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1603376626371" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603373948439">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603369779371" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603373948439" />
     <state x="627" y="351" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1603296549193">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
