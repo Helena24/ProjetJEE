@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <title>{% block title %}Welcome{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
 </head>
+<title>Recherche</title>
+<h1 class="title">Ajout voyageur</h1>
 <body>
+<div class="content" style="padding-left: 30%; padding-right: 40%; padding-top: 20%;">
+    <div class="level-left">
+        <div class="level-item">
+            <div class="select is-rounded">
+                <form method="post" action="\ajoutVoyageurOk">
+                    <input class="input is-rounded" name="prenomVoyageur" type="text" placeholder="Nom" required>
+                    <input class="input is-rounded" name="nomVoyageur" type="text" placeholder="Prenom" required>
+                    <input class="input is-rounded" ame="telephoneVoyageur" type="tel" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="Téléphone"  required>
+                    <input class="input is-rounded" ame="telephoneVoyageur" type="mail" placeholder="Mail"  required>
+                    <button class="button is-success is-rounded">Ajouter</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
