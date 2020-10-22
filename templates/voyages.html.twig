@@ -32,8 +32,6 @@
                         <strong>{{ voyage.numerotransport }}</strong>
                         <div class="tags has-addons">
                             <span class="tag is-light">{{voyage.villedepart }}-{{ voyage.villearrive}}</span>
-
-                            <span class="tag is-white">{{voyage.datevoyage|localizeddate('none', 'none', 'fr', null, 'EEEE d MMMM Y')}}</span>
                             <button class="button is-small button is-primary" onclick="window.location.href = '{{ path('voyage_clients', {'id' : voyage.getIdView()}) }}';">Voir les passagers</button>
                     </div>
                     </p>

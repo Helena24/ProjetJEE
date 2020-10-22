@@ -17,21 +17,26 @@
             <th>L'a-t-il effectué ?</th>
             </thead>
             <tbody>
-            {% for dossier in dossiers %}
+            {% for voy in date %}
+                {{ voy.dateVoyage }}
+            {% endfor %}
+            STOP
+            {% for doss in dossVoyage %}
+                {{ doss.getReferenceVoyage().getDateVoyage() }}
+                {{ doss.getReferenceVoyage().getVilleDepart() }}
+                {{ doss.getReferenceVoyage().getVilleArrive() }}
+                {{ doss.getReferenceVoyage().getIdView() }}
                 <tr>
                     <td>
-                        {{dossier.getReferenceClient().getNomClient()}}
-                        {{dossier.getReferenceClient().getPrenomClient()}}
                     </td>
                     <td>
-                        <strong>Date</strong> {{dossier.getReferenceVoyage().getDateVoyage()}}<br>
-                        <strong>Type</strong> {{dossier.getReferenceVoyage().getTypeTransport()}}<br>
-                        <strong>Numéro</strong> {{dossier.getReferenceVoyage().getNumeroTransport()}}<br>
-                        <strong>Départ</strong> {{dossier.getReferenceVoyage().getVilleDepart()}}<br>
-                        <strong>Arrivée</strong> {{dossier.getReferenceVoyage().getVilleArrive()}}
+                        <strong>Date</strong><br>
+                        <strong>Type</strong> <br>
+                        <strong>Numéro</strong> <br>
+                        <strong>Départ</strong> <br>
+                        <strong>Arrivée</strong>
                     </td>
                     <td>
-                        {{ dossier.voyageEffectue }}
                     </td>
                 </tr>
             {% endfor %}

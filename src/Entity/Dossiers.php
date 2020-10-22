@@ -20,7 +20,6 @@ class Dossiers
     private $referenceClient;
 
     /**
-     * @ORM\Id()
      * @ORM\ManyToOne(targetEntity="App\Entity\Voyages", fetch="EAGER")
      * @ORM\JoinColumn(name="referenceVoyage", referencedColumnName="id_voyage")
      */
@@ -30,6 +29,13 @@ class Dossiers
      * @ORM\Column(name="voyageEffectue", type="text")
      */
     private $voyageEffectue;
+
+    /**
+     * @ORM\Id()
+     * @ORM\Column(name="id_dossier_view", type="integer")
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $idDossier;
 
     /**
      * @return mixed
