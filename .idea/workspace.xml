@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="ajout classes">
+    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="Class Contact">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Projet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerClient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Voyageurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Voyageurs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ajoutVoyageur.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ajoutVoyageur.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/voyages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/voyages.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,29 +77,37 @@
       <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
-      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
-      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
-      <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/twig/intl-extra" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iSYWLKDvIJtN7y5eLrRrimjcah" />
@@ -116,16 +117,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\viann\PhpstormProjects\ProjetJEE\templates" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -140,190 +145,151 @@
       <workItem from="1602172859937" duration="252000" />
       <workItem from="1603113340723" duration="6370000" />
       <workItem from="1603180732017" duration="4313000" />
-      <workItem from="1603272276709" duration="833000" />
-      <workItem from="1603280917760" duration="659000" />
-      <workItem from="1603286969414" duration="6617000" />
-      <workItem from="1603299687578" duration="142000" />
-      <workItem from="1603351297275" duration="7893000" />
-      <workItem from="1603367660217" duration="7283000" />
+      <workItem from="1603186535428" duration="516000" />
+      <workItem from="1603201818754" duration="5970000" />
+      <workItem from="1603209395635" duration="8911000" />
+      <workItem from="1603262400576" duration="903000" />
+      <workItem from="1603263410010" duration="33337000" />
     </task>
-    <task id="LOCAL-00001" summary="clients">
-      <created>1603187363075</created>
+    <task id="LOCAL-00001" summary="Controller Voyage">
+      <created>1603210786591</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1603187363075</updated>
+      <updated>1603210786591</updated>
     </task>
-    <task id="LOCAL-00002" summary="clients test fini">
-      <created>1603187410207</created>
+    <task id="LOCAL-00002" summary="Add templates voayges">
+      <created>1603210919238</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1603187410207</updated>
+      <updated>1603210919238</updated>
     </task>
-    <task id="LOCAL-00003" summary="page client">
-      <created>1603197079521</created>
+    <task id="LOCAL-00003" summary="Controller Voyage clients">
+      <created>1603353199356</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1603197079521</updated>
+      <updated>1603353199357</updated>
     </task>
-    <task id="LOCAL-00004" summary="affichage de la page client">
-      <created>1603198048722</created>
+    <task id="LOCAL-00004" summary="Class Contact">
+      <created>1603377199229</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1603198048722</updated>
+      <updated>1603377199229</updated>
     </task>
-    <task id="LOCAL-00005" summary="ajout de la page pour les dossiers">
-      <created>1603204232461</created>
+    <task id="LOCAL-00005" summary="Class Contact">
+      <created>1603377261386</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1603204232461</updated>
+      <updated>1603377261386</updated>
     </task>
-    <task id="LOCAL-00006" summary="mapping + page des dossiers">
-      <created>1603208847894</created>
+    <task id="LOCAL-00006" summary="Ajout voyageur">
+      <created>1603378181571</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1603208847895</updated>
+      <updated>1603378181571</updated>
     </task>
-    <task id="LOCAL-00007" summary="ajout de l'id">
-      <created>1603296931659</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1603296931659</updated>
-    </task>
-    <task id="LOCAL-00008" summary="changmeent">
-      <created>1603359506315</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1603359506315</updated>
-    </task>
-    <task id="LOCAL-00009" summary="ça marche">
-      <created>1603369771107</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1603369771107</updated>
-    </task>
-    <task id="LOCAL-00010" summary="recherche clients covid">
-      <created>1603373942543</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1603373942543</updated>
-    </task>
-    <task id="LOCAL-00011" summary="ajout classes">
-      <created>1603376642637</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1603376642638</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="clients" />
-    <MESSAGE value="clients test fini" />
-    <MESSAGE value="page client" />
-    <MESSAGE value="affichage de la page client" />
-    <MESSAGE value="ajout de la page pour les dossiers" />
-    <MESSAGE value="mapping + page des dossiers" />
-    <MESSAGE value="ajout de l'id" />
-    <MESSAGE value="changmeent" />
-    <MESSAGE value="ça marche" />
-    <MESSAGE value="recherche clients covid" />
-    <MESSAGE value="ajout classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout classes" />
+    <MESSAGE value="Add templates voayges" />
+    <MESSAGE value="Controller Voyage" />
+    <MESSAGE value="Controller Voyage clients" />
+    <MESSAGE value="Class Contact" />
+    <MESSAGE value="Ajout voyageur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout voyageur" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603196703542">
+    <state x="75" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603210409791">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="75" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603210409791" />
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1603113417985" />
+    <state x="479" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1603377232602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603377232602" />
+    <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1601904368193" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603349978108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603349978108" />
+    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1603378180612">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603378180612" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1603210404726">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603210404726" />
+    <state width="905" height="186" key="GridCell.Tab.0.bottom" timestamp="1603308619397">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603308619397" />
+    <state width="958" height="164" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603185656067" />
+    <state width="905" height="186" key="GridCell.Tab.0.center" timestamp="1603308619397">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603308619397" />
+    <state width="958" height="164" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603185656066" />
+    <state width="905" height="186" key="GridCell.Tab.0.left" timestamp="1603308619396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603308619396" />
+    <state width="958" height="164" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603185656066" />
+    <state width="905" height="186" key="GridCell.Tab.0.right" timestamp="1603308619397">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603308619397" />
+    <state width="958" height="164" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603185656067" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1603377097959">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1603377097959" />
+    <state x="370" y="148" key="NewPhpClassDialog" timestamp="1603204474586">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="370" y="148" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1603204474586" />
+    <state x="390" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1602172897813" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603378190131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603378190131" />
+    <state x="627" y="351" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1603117247845">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1603196703542" />
-    <state x="436" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603196626889">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="436" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1603196626889" />
-    <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1603376785882">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="505" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603376785882" />
-    <state x="421" y="96" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603194419801">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="421" y="96" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1603194419801" />
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603372603202">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603372603202" />
-    <state width="958" height="164" key="GridCell.Tab.0.bottom" timestamp="1603358683710">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="958" height="164" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603358683710" />
-    <state width="958" height="164" key="GridCell.Tab.0.center" timestamp="1603358683709">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="958" height="164" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603358683709" />
-    <state width="958" height="164" key="GridCell.Tab.0.left" timestamp="1603358683709">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="958" height="164" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603358683709" />
-    <state width="958" height="164" key="GridCell.Tab.0.right" timestamp="1603358683710">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="958" height="164" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603358683710" />
-    <state x="390" y="183" key="NewPhpClassDialog" timestamp="1603376626371">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="390" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1603376626371" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603376647570">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603376647570" />
-    <state x="627" y="351" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1603296549193">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="627" y="351" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1440.900@0.0.1440.900" timestamp="1603296549193" />
+    <state x="627" y="351" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1440.900@0.0.1440.900" timestamp="1603117247845" />
     <state x="598" y="344" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603118373538">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="598" y="344" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.900@0.0.1440.900" timestamp="1603118373538" />
-    <state x="490" y="277" width="460" height="333" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1603210510861">
+    <state x="263" y="19" key="com.intellij.database.dbimport.ImportDialog" timestamp="1603186722904">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="19" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1603186722904" />
+    <state x="479" y="184" width="408" height="347" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1603210446887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="184" width="408" height="347" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728@0.0.1366.728" timestamp="1603210446887" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603378222658">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603378222658" />
+    <state x="297" y="0" width="722" height="567" key="dock-window-1" timestamp="1603359539458">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="297" y="0" width="722" height="567" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1603359539458" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603184434532">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="490" y="277" width="460" height="333" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1440.900@0.0.1440.900" timestamp="1603210510861" />
-    <state x="186" y="42" key="com.intellij.database.view.ui.DatabasePreviewDialog" timestamp="1603369374579">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="186" y="42" key="com.intellij.database.view.ui.DatabasePreviewDialog/0.0.1440.900@0.0.1440.900" timestamp="1603369374579" />
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603353268093">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1603353268093" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603373186524">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603373186524" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603184434532" />
   </component>
 </project>

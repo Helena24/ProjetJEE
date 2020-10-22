@@ -17,7 +17,6 @@ class ControllerClient extends AbstractController
     /**
      * @return Response
      * @Route (path="/toto", name="accueil")
-     * @Route (path="/", name="accueil")
      */
     public function toto()
     {
@@ -69,7 +68,7 @@ class ControllerClient extends AbstractController
         $en->flush();
 
         $contact = new Contact();
-        $contact->setMethode('telephone');
+        $contact->setMethode("telephone");
         $contact->setValeur($telephoneVoyageur);
         $contact->setIdVoyageur($voyageur->getIdVoyageur());
 
@@ -77,7 +76,7 @@ class ControllerClient extends AbstractController
         $en->flush();
 
         $contact = new Contact();
-        $contact->setMethode('mail');
+        $contact->setMethode("mail");
         $contact->setValeur($emailVoyageur);
         $contact->setIdVoyageur($voyageur->getIdVoyageur());
 

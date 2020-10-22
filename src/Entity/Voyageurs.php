@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Class Voyageurs
  * @ORM\Entity()
- * @ORM\Table(name="Voyageurs")
+ * @ORM\Table(name="Voyageur")
  */
 class Voyageurs
 {
