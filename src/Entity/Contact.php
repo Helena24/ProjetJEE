@@ -89,5 +89,4 @@ class Contact
     {
         $this->valeur = $valeur;
     }
-
 }

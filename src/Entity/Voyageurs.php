@@ -76,5 +76,4 @@ class Voyageurs
     {
         $this->prenom = $prenom;
     }
-
 }
