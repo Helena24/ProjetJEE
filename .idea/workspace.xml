@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="changmeent">
+    <list default="true" id="47aadb8a-f2b4-40b3-ba0b-378bfb472b59" name="Default Changelist" comment="ça marche">
+      <change afterPath="$PROJECT_DIR$/templates/covid.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/covidResult.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ControllerVoyages.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerVoyages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Dossiers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Dossiers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/voyage_clients.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/voyage_clients.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/voyages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/voyages.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,7 @@
       <workItem from="1603286969414" duration="6617000" />
       <workItem from="1603299687578" duration="142000" />
       <workItem from="1603351297275" duration="7893000" />
-      <workItem from="1603367660217" duration="2056000" />
+      <workItem from="1603367660217" duration="6178000" />
     </task>
     <task id="LOCAL-00001" summary="clients">
       <created>1603187363075</created>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603359506315</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ça marche">
+      <created>1603369771107</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603369771107</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +239,8 @@
     <MESSAGE value="mapping + page des dossiers" />
     <MESSAGE value="ajout de l'id" />
     <MESSAGE value="changmeent" />
-    <option name="LAST_COMMIT_MESSAGE" value="changmeent" />
+    <MESSAGE value="ça marche" />
+    <option name="LAST_COMMIT_MESSAGE" value="ça marche" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603196703542">
@@ -250,10 +259,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="96" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1603194419801" />
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603194400444">
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603372603202">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603194400444" />
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603372603202" />
     <state width="958" height="164" key="GridCell.Tab.0.bottom" timestamp="1603358683710">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -274,10 +283,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="390" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1603194369715" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603359512376">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603369779371">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603359512376" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603369779371" />
     <state x="627" y="351" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1603296549193">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -298,9 +307,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1603353268093" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603184434532">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603373186524">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603184434532" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603373186524" />
   </component>
 </project>

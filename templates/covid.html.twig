@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+        <title>{% block title %}Welcome{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <title>Recherche</title>
+    <h1 class="title">Voyages</h1>
+    <div class="content" style="padding-left: 30%; padding-right: 40%; padding-top: 20%;">
+        <form action="\covidResult" method="POST">
+            <div class="level-left">
+                <div class="level-item">
+                    <div class="select is-rounded">
+                        <select name="idClientSearch">
+                            {% for client in clients %}
+                                <option value="{{ client.idClient }}">{{ client.nomClient }} {{ client.prenomClient }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+                <div class="level-item">
+                    <input class="input is-rounded" name="dateSearch" type="text" placeholder="YYYY-MM-DD">
+                </div>
+                <button class="button is-success is-rounded" type="submit">Rechercher</button>
+            </div>
+        </form>
+    </div>
+
+
+
+<body>
+
+</body>
+</html>

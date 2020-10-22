@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <title>{% block title %}Welcome{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+</head>
+<body>
+{% block body %}{% endblock %}
+
+{% set refVoyage = null %}
+{% for dossier in dossiers %}
+    {% if dossier.getReferenceClient().getIdClient() == id and dossier.getReferenceVoyage().getDateVoyage() == date %}
+        {% set refVoyage = dossier %}
+    {% endif %}
+{% endfor %}
+<h1 class="title">Les clients qui ont voyagé avec {{ refVoyage.getReferenceClient().getNomClient() }} {{ refVoyage.getReferenceClient().getPrenomClient() }} le {{ date }}</h1>
+<div class="content" style="padding-left: 10%; padding-right: 50%;">
+    <div class="table-container">
+        <table class="table is-hoverable">
+            <thead>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>L'a-t-il effectué ?</th>
+            </thead>
+            <tbody>
+
+
+
+            {% for dossier in dossiers %}
+                {% if (dossier.getReferenceVoyage().getDateVoyage() == refVoyage.getReferenceVoyage().getDateVoyage()) and (dossier.getReferenceVoyage().getIdVoyage() == refVoyage.getReferenceVoyage().getIdVoyage()) and (dossier.getReferenceClient().getIdClient() != refVoyage.getReferenceClient().getIdClient())  %}
+
+                    <tr>
+                        <td>
+                            {{ dossier.getReferenceClient().getNomClient() }}
+                        </td>
+                        <td>
+                            {{ dossier.getReferenceClient().getPrenomClient() }}
+                        </td>
+                        <td>
+                            {{ dossier.voyageEffectue }}
+                        </td>
+                    </tr>
+
+                {% endif %}
+            {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+</div>
+{% block javascripts %}{% endblock %}
+</body>
+</html>
