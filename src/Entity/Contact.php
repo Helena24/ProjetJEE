@@ -34,4 +34,60 @@ class Contact
      */
     private $valeur;
 
+    /**
+     * @return mixed
+     */
+    public function getIdContact()
+    {
+        return $this->idContact;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdVoyageur()
+    {
+        return $this->idVoyageur;
+    }
+
+    /**
+     * @param mixed $idVoyageur
+     */
+    public function setIdVoyageur($idVoyageur): void
+    {
+        $this->idVoyageur = $idVoyageur;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMethode()
+    {
+        return $this->methode;
+    }
+
+    /**
+     * @param mixed $methode
+     */
+    public function setMethode($methode): void
+    {
+        $this->methode = $methode;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getValeur()
+    {
+        return $this->valeur;
+    }
+
+    /**
+     * @param mixed $valeur
+     */
+    public function setValeur($valeur): void
+    {
+        $this->valeur = $valeur;
+    }
+
 }
